@@ -1,0 +1,114 @@
+
+
+body{
+    background-color:#bde0fe ;
+}
+header{
+    margin-bottom: 2%;
+}
+header h1 {
+    text-align: center;
+}
+.line{
+    display: flex;  
+    justify-content: center;
+    text-align: center;
+}
+img{
+    width: 5vw;
+    height: 5vw;
+    object-fit: cover;
+    justify-content: center;
+    background-color: white;
+}
+
+#player{
+    object-fit: contain;
+}
+#haut{
+    background-image: url("../images/fleche.png");
+    width:70px;
+    height:70px;
+    border:none;
+    cursor:pointer;
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-color: transparent;
+    transform: rotate(180deg);
+}
+
+#bas{
+    background-image: url("../images/fleche.png");
+    width:70px;
+    height:70px;
+    border:none;
+    cursor:pointer;
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-color: transparent;
+    
+}
+#gauche{
+    background-image: url("../images/fleche.png");
+    width:70px;
+    height:70px;
+    border:none;
+    cursor:pointer;
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-color: transparent;
+    transform: rotate(90deg);
+}
+#droite{
+    background-image: url("../images/fleche.png");
+    width:70px;
+    height:70px;
+    border:none;
+    cursor:pointer;
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-color: transparent;
+    transform: rotate(-90deg);
+}
+#buttoncontainer{
+    margin-block: auto;
+    
+    
+    
+}
+main{
+    display: flex;
+    justify-content:space-evenly;
+}
+.cursor{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+    
+}
+#direction{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+#text{
+    font-size: x-large;
+    margin-top: 4%;
+    color:green;
+}
+#replay{
+    border: 2px;
+    background-color: red;
+    border-radius: 4px;
+    border-style: outset;
+    font-size: x-large;
+    cursor: wait;
+    
+}
+#play{
+    display: flex;
+    justify-content: center;
+}
+
+
